@@ -4,17 +4,53 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: white;
+    background-color: blue;
 }
 button{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     border: none;
     border-radius: 10px;
+    padding: 20px;
+    margin:10px;
     color: white;
     background: blue;
+    cursor: pointer;
+    width: 350px;
 }
 #buttons{
 
-    align-items: center;
+    margin-top: 50px;
+
+    
+}
+input{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 350px;
+}
+#input{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-content: center;
+}
+a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+#block{
+    box-shadow: 15px 15px 10px black;
+    border-radius: 10%;
+    width: 350px;
+    background-color: white;
+    padding: 50px;
+}
+button:hover{
+    box-shadow: 5px 5px 4px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 211);
+    color: white;
 }
