@@ -26,8 +26,10 @@ li{
 h1{
     margin: 10px;
     margin-left: 20px;
-    font-family: 'Honk', system-ui;
-    color: aliceblue;
+    font-family: 'Protest Strike', sans-serif;
+    color: yellow;
+    text-shadow: 10px 10px 5px black;
+    cursor: pointer;
 }
 input{
 
