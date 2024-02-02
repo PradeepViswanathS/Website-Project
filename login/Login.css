@@ -3,7 +3,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: blue;
 }
 button{
@@ -48,11 +47,13 @@ a{
 #block{
 
     position: relative;
-    left: 25%;
+    left: 35%;
     border-radius: 10%;
     width: 350px;
     background-color: yellow;
     padding: 50px;
+    border-style: dashed;
+    border-color: black;
 
 }
 button:hover{
@@ -68,4 +69,44 @@ button:active{
 
 #block:hover{
     box-shadow: 15px 15px 15px rgb(0, 0, 0);
+}
+#webname{
+    position: relative;
+    left:-40%;
+    text-align: center;
+    font-family: 'Protest Strike', sans-serif;
+    font-size: xx-large;
+    color: yellow;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-color: black;
+    border-radius: 10px;
+    border-style: dashed;
+    text-shadow: 10px 10px 5px black;
+}
+h2{
+    padding: 0px;
+    margin: 0%;
+    position: relative;
+    left: -110px;
+    top: 50px;
+
+}
+h3{
+    padding: 0px;
+    margin: 0%;
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+#vertical-ruler{
+
+    margin-right: 150px;
+    width: 3px;
+    height: 750px;
+    background-color: black;
+
+
 }
