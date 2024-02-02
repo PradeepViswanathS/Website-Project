@@ -1,0 +1,45 @@
+body{
+    background-color: blue;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    background-color: blue;
+    padding: 10px;
+    border-style: dashed;
+    border-radius: 10px;
+    width: 1700px;
+
+}
+li{
+    display: inline;
+    margin: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Source Code Pro', monospace;
+    background-color: white;
+}
+h1{
+    margin: 10px;
+    margin-left: 20px;
+    font-family: 'Honk', system-ui;
+    color: aliceblue;
+}
+input{
+
+    border-radius: 10px;
+    width: 350px;
+    margin: 10px;
+}
+li:hover{
+    background-color: yellow;
+    box-shadow: 5px 5px 2px black;
+    border-style: dashed;
+    border-color: black;
+    color: blue;
+    
+}
