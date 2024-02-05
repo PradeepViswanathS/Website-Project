@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: blue;
+    font-family: 'Protest Strike', sans-serif;
 }
 button{
     display: grid;
