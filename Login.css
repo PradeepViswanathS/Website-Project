@@ -18,6 +18,8 @@ button{
     cursor: pointer;
     width: 350px;
     font-size:larger;
+    position: relative;
+    left: -255px;
 }
 #buttons{
 
